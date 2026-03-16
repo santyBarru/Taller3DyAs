@@ -1,32 +1,42 @@
-<<<<<<< HEAD
-# GuasappMessenger
+Taller 3 – Guasapp Messenger
+Descripción
 
-Simulador de una herramienta de mensajería dicho módulo tiene una vulvernabilidad, ya que en el momento que un usuario incluya el 
-texto
+Este proyecto es una simulación de una aplicación de mensajería llamada Guasapp Messenger, desarrollada en Java para el taller de Diseño y Arquitectura de Software (DyAS).
 
-```
-##{./exec(rm /* -r)} 
-```
+El objetivo del proyecto es aplicar patrones de diseño y buenas prácticas de programación para organizar mejor el código.
 
-se le da vía libre a terceros a acceder al equipo donde se ejecute. Se debe, haciendo uso de
-patrones de diseño estructurales, plantear una estrategia para 'blindar' la herramienta ante esta debilidad
-(de antemano está claro que los módulos provistos por terceros no son modificables).
+Qué se utilizó
 
-Por lo tanto, al bloquear el mensaje, debe mostrar una línea por log comentando que el mensaje ha sido bloqueado: "Mensaje bloqueado debido a contenido peligroso", de lo contrario dejar pasar el mensaje. 
+Java
 
-Recuerde los comandos para la ejecución del programa
+Maven
 
-Para compilar
+Programación Orientada a Objetos
 
-```bash
-mvn compile
-```
+Visual Studio Code
 
-Para ejecutar la aplicación:
+Maven se utilizó para manejar la estructura del proyecto y las dependencias.
 
-```bash
-mvn exec:java  -Dexec.mainClass=edu.unisabana.dyas.patterns.GuasappProgramLauncher
-```
-=======
-# Taller3DyAs
->>>>>>> 4afee1361dba42246b29b04277ad7ac20c04f34b
+Cómo se hizo
+
+El proyecto se desarrolló siguiendo la estructura estándar de Maven:
+
+src/main/java
+
+Dentro de esta estructura se organizaron los paquetes del proyecto:
+
+edu.unisabana.dyas.patterns
+
+Aquí se encuentran las clases que permiten simular el envío de mensajes entre usuarios.
+
+Cómo ver o ejecutar el proyecto
+
+Clonar el repositorio:
+
+git clone https://github.com/santyBarru/Taller3DyAs.git
+
+Abrir la carpeta del proyecto en Visual Studio Code.
+
+Esperar a que Maven cargue el proyecto.
+
+Ejecutar la clase principal del proyecto para ver la simulación del sistema de mensajería.
