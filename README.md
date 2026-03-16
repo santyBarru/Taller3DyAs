@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # GuasappMessenger
 
 Simulador de una herramienta de mensajería dicho módulo tiene una vulvernabilidad, ya que en el momento que un usuario incluya el 
@@ -26,3 +27,6 @@ Para ejecutar la aplicación:
 ```bash
 mvn exec:java  -Dexec.mainClass=edu.unisabana.dyas.patterns.GuasappProgramLauncher
 ```
+=======
+# Taller3DyAs
+>>>>>>> 4afee1361dba42246b29b04277ad7ac20c04f34b
